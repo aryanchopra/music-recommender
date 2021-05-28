@@ -1,0 +1,51 @@
+.App {
+  font-family: Montserrat;
+
+  max-width: 70%;
+  max-height: 100%;
+  margin: auto;
+}
+body {
+  background: #eff6ff;
+}
+
+h2 {
+  margin-right: auto;
+}
+button {
+  margin-right: 10px;
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background: #bfdbfe;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+button:hover {
+  background: #60a5fa;
+}
+ul {
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+}
+li {
+  list-style: none;
+  border: 1px solid;
+  width: 70%;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #c7d2fe;
+}
+div {
+  padding: 5px;
+}
+.songname {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.songartist {
+  font-style: italic;
+}
